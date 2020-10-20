@@ -11,7 +11,7 @@
   <div class="navbarDivider"></div>
   <a id="about" href="/about.php" class="navbarButton">About</a>
 	<div class="navbarDivider"></div>
-  <a id="about" href="/projects.php" class="navbarButton">Projects</a>
+  <a id="projects" href="/projects.php" class="navbarButton">Projects</a>
 </div>
 <?php
 	if (isset($_SESSION['userId'])) {

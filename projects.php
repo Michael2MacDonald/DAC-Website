@@ -24,7 +24,7 @@
       <div class="heroImage" style="background-color: #492f92;">
     		<div class="heroText">
     			<p><strong>Community Projects</strong></p>
-          <p style="font-size: 15px;">Sunset High School's Only After School Club For All Art And Electronics</p>
+          <p style="font-size: 15px;">Open source projects worked on by the community</p>
     		</div>
     	</div>
     </div>
@@ -35,10 +35,10 @@
         <div class="row"><!--row-->
 
           <div class="column">
-            <div class="columnContainer zoom" onclick="location.href='/about';">
+            <div class="columnContainer zoom" onclick="location.href='/projects/osab.php';">
               <p class="primaryHeader">OSAB</p>
               <img src="/img/cad.png" alt="screenshot of a geneva drive in a CAD software" width="200" height="200"> <!--Add pic of us-->
-              <p>An open source, autonomouse, 3d printed, seagoing, solar powered, boat that will collect data on the ocean</p>
+              <p>An open source, autonomous, 3d printed, seagoing, solar powered, boat that will collect data on the ocean</p>
             </div>
           </div>
 
@@ -53,7 +53,7 @@
     <script type="text/javascript">
       window.onload = function () {
         setTimeout(() => {
-          var d = document.getElementById("home");
+          var d = document.getElementById("projects");
           d.className += " navbarButtonCurrent";
         }, 100);
       };

@@ -35,13 +35,13 @@
         <div class="row"><!--row-->
 
           <div class="column">
-            <div class="columnContainer zoom" onclick="location.href='/about';">
+            <div class="columnContainer zoom" onclick="location.href='about.php';">
               <p class="primaryHeader">CAD</p>
               <img src="/img/cad.png" alt="screenshot of a geneva drive in a CAD software" width="200" height="200"> <!--Add pic of us-->
               <p>We have access to 3D printers, laser cutters, and vinal cutters that let you design and fabricate any part as well as computers with CAD software so anyone can make stuff.</p>
             </div>
 
-            <div class="columnContainer zoom" onclick="location.href='/about';">
+            <div class="columnContainer zoom" onclick="location.href='about.php';">
               <p class="primaryHeader">Digital Art</p>
               <img src="/img/cad.png" width="200" height="200"> <!--Add pic of us-->
               <p>Whether you just need a place to work after school away from your siblings, want to chat with others who share our intrests, or just need a computer to work on, DAC is a graet place to make you 21st century art.</p>

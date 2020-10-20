@@ -26,6 +26,7 @@
       <div class="container">
         <h1>How To Join</h1>
         <p>Do things</p>
+        <p>our discord server: <a href="https://discord.gg/uh5qdtG/">https://discord.gg/uh5qdtG/</a></p>
       </div>
     </div>
 
