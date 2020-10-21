@@ -34,11 +34,13 @@ body {
   flex-direction: column;
   margin: 10px 0px;
   padding: 15px;
+  width: min-content;
   border-radius: 25px;
   background-color: #e9e9e9;
 }
 .columnContainer img {
-  margin: 5px auto;
+  align-self: center;
+  margin: 5px 10px;
   border-radius: 25px;
 }
 .textWrap {
@@ -149,7 +151,7 @@ p {
   transition-duration: 0.4s;
   background-color: transparent;
   color: inherit;
-  border: 1.5px solid white;
+  border: 2px solid white;
 }
 .navbarButton:hover {
   background-color: white;
@@ -162,8 +164,9 @@ p {
 .navbarDivider {
   width: 2px;
   height: 25px;
-  margin: 2px;
-  background-color: #a2a2a2;
+  margin: 1.75px;
+  background-color: white;
+  /* background-color: #a2a2a2; */
   border-radius: 1px;
 }
 .navbarInput {

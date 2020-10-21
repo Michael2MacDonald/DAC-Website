@@ -24,7 +24,7 @@
         <p>A short answer is: it is an open source, autonomous, 3d printed, sea-going, solar powered, boat that will collect data on the ocean for scientific research. But there is a lot more than that. The goal of this project was to design an autonomous boat that could be printed on most mid-sized 3D printers and that would require little skill to make unlike other similar boats that are make from carbon fiber or fiberglass.</p>
       </div>
       <div class="container">
-        <h1>Contributers:</h1>
+        <h1>Contributors:</h1>
         <p>So far only really me =(</p>
       </div>
     </div>

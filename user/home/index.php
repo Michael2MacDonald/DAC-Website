@@ -17,7 +17,7 @@
     <div class="header">
       <div w3-include-html="/include/header.php" class="navbar"></div>
     </div>
-    <div w3-include-html="/user/userMenu.php" class="userMenuWrapper"></div>
+    <!-- <div w3-include-html="/user/userMenu.php" class="userMenuWrapper"></div> -->
     <div class="main">
 
     </div>
