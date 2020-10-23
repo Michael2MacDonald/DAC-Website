@@ -29,6 +29,59 @@
       </div>
     </div>
 
+    <div class="commentSection">
+      <form class="navbarForm" action="../comment.php" method="post">
+        <textarea class="navbarInput" name="message" rows="3" cols="55" placeholder="Message"></textarea>
+        <div class="">
+          <button class="signupButton" type="submit" name="login-submit">Comment</button>
+        </div>
+      </form>
+
+      <?php
+        ini_set ( 'display_errors', 'On' );
+        require('../include/dbh.inc.php');
+        $sql = "SELECT * FROM comments_test";
+        $result = mysqli_query($conn, $sql);
+
+        while ($row = mysqli_fetch_assoc($result)) {
+          foreach ($row as $key => $value) {
+            if ($key == "message") {
+              $message = $value;
+            }
+            if ($key == "uidUsers") {
+              $user = $value;
+            }
+            if ($key == "time") {
+              $time = $value;
+            }
+          }
+          echo '<div class="comment">';
+          echo '<p>' . $message . '</p>';
+          echo '<p>' . $user . '  ' . $time . '</p>';
+          echo '</div>';
+  			}
+
+        // echo $result;
+        // for ($i=0; $i < $result; $i++) {
+        //
+        // }
+
+        // foreach ($result as $key => $value) {
+        //   echo $key + "  " + $value + "|||";
+        //   echo `
+        //   <div class="comment">
+        //     <p>` + "mesage" + `</p>
+        //   </div>
+        //   `;
+        // }
+
+      ?>
+
+      <div class="comment">
+        <p>test</p>
+      </div>
+    </div>
+
     <div w3-include-html="../include/footer.php"></div>
     <script>includeHTML();</script>
     <script type="text/javascript">
