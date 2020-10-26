@@ -52,6 +52,6 @@
         </div>
         <button class="navbarButton" type="submit" name="login-submit">Login</button>
         <div class="navbarDivider"></div>
-        <a id="signup" href="signup.php" class="navbarButton">Signup</a>
+        <a id="signup" href="/signup.php" class="navbarButton">Signup</a>
       </form>';
   }?>
